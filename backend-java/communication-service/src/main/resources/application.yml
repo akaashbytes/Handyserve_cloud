@@ -30,7 +30,7 @@ jwt:
 app:
   auth-service-url: http://localhost:8082
 client-origin: ${APP_CLIENT_ORIGIN:https://handyserve.vercel.app}
-  nominatim-base: https://nominatim.openstreetmap.org
+nominatim-base: https://nominatim.openstreetmap.org
 
 management:
   endpoints:
