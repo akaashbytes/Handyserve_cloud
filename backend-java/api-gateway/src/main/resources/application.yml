@@ -18,6 +18,7 @@ spring:
               - "http://10.1.0.209:5174"
               - "http://10.1.0.223:5173"
               - "http://10.1.0.223:5174"
+              - "https://handyserve.vercel.app"
             allowedMethods:
               - GET
               - POST

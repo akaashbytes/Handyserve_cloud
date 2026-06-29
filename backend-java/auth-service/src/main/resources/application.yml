@@ -41,4 +41,4 @@ jwt:
 
 app:
   backend-url: ${APP_BACKEND_URL:http://10.1.0.223:8081}
-  client-origin: ${APP_CLIENT_ORIGIN:http://10.1.0.223:5173}
+  client-origin: ${APP_CLIENT_ORIGIN:https://handyserve.vercel.app}
