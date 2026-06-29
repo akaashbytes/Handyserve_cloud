@@ -17,7 +17,7 @@ spring:
         default_schema: HANDYSERVE
   data:
     mongodb:
-      uri: mongodb://localhost:27017/handyserve
+      uri: mongodb+srv://Handyserve:s6B2aEMgJmo6kjb7@handyserve-cluster.8kdketu.mongodb.net/handyserve?retryWrites=true&w=majority&appName=handyserve-cluster
   autoconfigure:
     exclude:
       - org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
