@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521:XE
+    url:  jdbc:oracle:thin:@100.125.120.56:1521:XE
     username: HANDYSERVE
     password: handyserve123
     driver-class-name: oracle.jdbc.OracleDriver
